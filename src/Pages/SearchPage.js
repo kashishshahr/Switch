@@ -88,9 +88,9 @@ const SearchPage = () => {
           href="https://nicepage.dev"
           className="u-border-2 u-border-custom-color-1 u-btn u-btn-round u-button-style u-hover-custom-color-1 u-none u-radius-6 u-text-custom-color-1 u-text-hover-white u-btn-2"
         >
-          Upload I
+          
           <span style={{ fontWeight: 400 }}>
-            <span style={{ fontWeight: 700 }}> mage</span>
+            <span style={{ fontWeight: 700 }}> Upload Image</span>
           </span>
         </a>
         <a
@@ -103,6 +103,7 @@ const SearchPage = () => {
           className="u-image u-image-default u-image-1"
           src={undraw_searching_p5ux}
           alt=""
+          
           data-image-width="1344"
           data-image-height="958"
         />

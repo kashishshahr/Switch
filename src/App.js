@@ -5,6 +5,9 @@ import Footer from './MyComponents/Footer/Footer';
 import Header from './MyComponents/Header/Header';
 import AboutPage from './Pages/AboutPage';
 import CheckDiets from './Pages/CheckDiets';
+import DietDetailsPage from './Pages/DietDetails';
+import EditProfilePage from './Pages/EditProfile';
+import FoodDetails from './Pages/FoodDetails';
 import HomePage from './Pages/HomePage';
 import SearchPage from './Pages/SearchPage';
 import SignInPage from './Pages/SignInPage';
@@ -21,6 +24,9 @@ function App() {
           <Route path="/signin" element={<SignInPage/>}/>
           <Route path="/signup" element={<SignUpPage/>}/>
           <Route path="/search" element={<SearchPage/>}/>
+          <Route path="/fooddetails" element={<FoodDetails/>}/>
+          <Route path="/dietDetails" element={<DietDetailsPage/>}/>
+          <Route path="/editprofile" element={<EditProfilePage/>}/>
           <Route path="/checkdiets" element={<CheckDiets/>}/>
         </Routes>
         <Footer/>
