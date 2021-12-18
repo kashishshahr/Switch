@@ -1,5 +1,7 @@
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 import './App.css';
 import Footer from './MyComponents/Footer/Footer';
 import Header from './MyComponents/Header/Header';
@@ -29,6 +31,7 @@ function App() {
           <Route path="/editprofile" element={<EditProfilePage/>}/>
           <Route path="/checkdiets" element={<CheckDiets/>}/>
         </Routes>
+        
         <Footer/>
      </Router>
     </div>

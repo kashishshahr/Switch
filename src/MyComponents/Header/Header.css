@@ -1,0 +1,16 @@
+.navBar{
+background: #1F9766;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F9766, #00BF8F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F9766, #00BF8F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.nav-buttons{
+   border: 1px solid black;
+   margin: 0px 10px 0px 0px;
+   border-radius: 5px;
+   color: black;
+
+} 
+.navBarButtons{
+    color:white !important;
+}

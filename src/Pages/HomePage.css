@@ -1,3 +1,15 @@
+.home-text{
+  font-size: 2em;
+}
+img{
+  width: 100%;
+}
+.containterOfImage img{
+  width: 100%;
+  height: auto;
+}
+
+
 .u-section-1 {
     min-height: 318px;
   }

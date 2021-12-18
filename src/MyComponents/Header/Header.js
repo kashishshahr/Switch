@@ -1,16 +1,25 @@
-import logo from "../../assets/images/logo.jpg";
-import { NavLink as Link } from 'react-router-dom';
-import SignInButton from "../SignInButton/SignInButton";
-import SignUpButton from "../SignUpButton/SignUpButton";
+// import logo from "../../assets/images/logo.jpg";
+// import { NavLink as Link } from 'react-router-dom';
+// import SignInButton from "../SignInButton/SignInButton";
+// import SignUpButton from "../SignUpButton/SignUpButton";
+import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap'
+import './Header.css'
 const Header = () => {
-    return ( <header className="u-clearfix u-custom-color-1 u-header u-header" id="sec-3e39"><div className="u-clearfix u-sheet u-valign-middle u-sheet-1">
-    <Link to="/" className="u-file-link u-image u-logo u-image-1" title="Logo" data-image-width="235" data-image-height="112">
-      <img src= {logo} className="u-logo-image u-logo-image-1" alt="Logo of Swith"/>
-    </Link>
-    <SignInButton/>
-    <SignUpButton/>
-    
-    </div></header>  );
+    return ( <header >
+     <Navbar className='navBar' expand="lg">
+  <Container>
+    <Navbar.Brand href="#home">Switch</Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+        <Nav.Link className='navBarButtons' href="#home">Search</Nav.Link>
+        <Nav.Link className='navBarButtons' href="#link">Profile</Nav.Link>
+        <Nav.Link className='navBarButtons' href="#link">Diet</Nav.Link>
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
+  </header>  );
 }
  
 export default Header;
