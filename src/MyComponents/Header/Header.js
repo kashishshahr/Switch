@@ -5,7 +5,7 @@
 import {Navbar,Container,Nav,NavDropdown} from 'react-bootstrap'
 import './Header.css'
 const Header = () => {
-    return ( <header >
+    return ( <header>
      <Navbar className='navBar' expand="lg">
   <Container>
     <Navbar.Brand href="#home">Switch</Navbar.Brand>
